@@ -182,7 +182,8 @@ def get_hparams(init=True):
   parser.add_argument('--ckptD', type=str, required=False,
                       help='original VITS D checkpoint path')
   args = parser.parse_args()
-  model_dir = os.path.join("./logs", args.model)
+ #model_dir = os.path.join("./logs", args.model)
+  model_dir = os.path.join("../drive/MyDrive", args.model)
 
   if not os.path.exists(model_dir):
     os.makedirs(model_dir)
