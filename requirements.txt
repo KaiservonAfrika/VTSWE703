@@ -15,3 +15,4 @@ pyopenjtalk
 jamo
 inflect
 eng_to_ipa
+transformers
