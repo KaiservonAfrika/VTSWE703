@@ -11,3 +11,7 @@ Unidecode
 jieba
 cn2an
 pypinyin
+pyopenjtalk
+jamo
+inflect
+eng_to_ipa
