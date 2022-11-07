@@ -8,6 +8,8 @@ from text.mandarin import number_to_chinese, chinese_to_bopomofo, latin_to_bopom
 # from text.cantonese import cantonese_to_ipa
 # from text.ngu_dialect import ngu_dialect_to_ipa
 
+def basic_cleaners(text):
+    return text
 
 def japanese_cleaners(text):
     text = japanese_to_romaji_with_accent(text)
